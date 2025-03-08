@@ -32,7 +32,7 @@ Este proyecto es una API RESTful construida con Node.js, Express y Mongoose que 
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone <your_repository_url>
+    git clone https://github.com/Zay-M3/api-database-mongoDB.git
     ```
 
 2.  **Navegar al directorio del proyecto:**

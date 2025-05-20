@@ -31,49 +31,6 @@ Este proyecto es una API RESTful construida con Node.js, Express y Mongoose que 
 *   **CORS:** Middleware para Intercambio de Recursos de Origen Cruzado.
 *   **dotenv:** Para cargar variables de entorno desde archivos `.env`.
 
-## Configuración del Proyecto
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone https://github.com/Zay-M3/api-database-mongoDB.git
-    ```
-
-2.  **Navegar al directorio del proyecto:**
-    ```bash
-    cd database
-    ```
-
-3.  **Instalar dependencias:**
-    ```bash
-    npm install
-    ```
-
-4.  **Crear un archivo `.env`:**
-    *   Crea un archivo `.env` en el directorio raíz del proyecto.
-    *   Añade las siguientes variables de entorno, reemplazando los valores de ejemplo con tus valores reales:
-
-        ```properties
-        PORT=8080
-        MONGO_URI=mongodb+srv://david:say5527@cluster0.5hwbw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-        ALLOWED_ORIGINS=https://www.tudominio1.com,https://www.tudominio2.com
-        ```
-
-        *   **`PORT`:** El puerto en el que se ejecutará el servidor (por defecto: 8080).
-        *   **`MONGO_URI`:** Tu cadena de conexión a MongoDB.
-        *   **`ALLOWED_ORIGINS`:** Una lista de dominios separados por comas a los que se les permite acceder a la API.
-
-5.  **Ejecutar la aplicación:**
-    ```bash
-    npm start
-    ```
-
-    O, para desarrollo con recarga en caliente:
-    ```bash
-    npm run dev
-    ```
-
-    El servidor se iniciará en `http://localhost:8080` (o el puerto especificado en tu archivo `.env`).
-
 ## Endpoints de la API
 
 ### Usuarios
@@ -140,6 +97,4 @@ Este proyecto es una API RESTful construida con Node.js, Express y Mongoose que 
     *   **Descripción:** Comprueba si el servidor está en funcionamiento.
     *   **Respuesta:**
         *   `200 OK`: Devuelve el mensaje "El servidor esta corriendo".
-
-## Estructura de Directorios
 

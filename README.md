@@ -33,7 +33,6 @@ Este proyecto es una API RESTful construida con Node.js, Express y Mongoose que 
 
 ## Endpoints de la API
 
-### Usuarios
 
 *   **`GET /api/v1/users/`**
     *   **Descripción:** Obtiene una lista de todos los usuarios.
